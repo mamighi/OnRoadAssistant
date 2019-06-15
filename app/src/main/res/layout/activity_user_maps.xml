@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/flayout1"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.emad.myonroadapp.UserMainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <com.cuboid.cuboidcirclebutton.CuboidButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor= "@android:color/white"
+                android:text="Type Repair"
+                android:textSize="14dp"
+                android:id="@+id/tyreButton"
+                app:cub_border_radius ="0dp"
+                app:cub_color = "#000000"
+                app:cub_hover_color = "#00BFFFF1"
+                />
+            <com.cuboid.cuboidcirclebutton.CuboidButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor= "@android:color/white"
+                android:text="Engine"
+                android:textSize="14dp"
+                android:id="@+id/engineButton"
+                app:cub_border_radius ="0dp"
+                app:cub_color = "#000000"
+                app:cub_hover_color = "#00BFFFF1"
+                />
+            <com.cuboid.cuboidcirclebutton.CuboidButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor= "@android:color/white"
+                android:text="Battery"
+                android:textSize="14dp"
+                android:id="@+id/callButton"
+                app:cub_border_radius ="0dp"
+                app:cub_color = "#000000"
+                app:cub_hover_color = "#00BFFFF1"
+                />
+            <com.cuboid.cuboidcirclebutton.CuboidButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor= "@android:color/white"
+                android:text="Tow"
+                android:textSize="14dp"
+                android:id="@+id/towButton"
+                app:cub_border_radius ="0dp"
+                app:cub_color = "#000000"
+                app:cub_hover_color = "#00BFFFF1"
+                />
+            <com.cuboid.cuboidcirclebutton.CuboidButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textColor= "@android:color/white"
+                android:text="Highway's Tow"
+                android:textSize="14dp"
+                android:id="@+id/htowButton"
+                app:cub_border_radius ="0dp"
+                app:cub_color = "#000000"
+                app:cub_hover_color = "#00BFFFF1"
+                />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    </fragment>
+</FrameLayout>

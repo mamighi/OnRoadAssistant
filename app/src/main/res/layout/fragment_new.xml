@@ -1,0 +1,98 @@
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    android:id="@+id/userframe"
+    tools:context="com.example.emad.onroadassistantapp.newFragment"> -->
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+         android:id="@+id/lt1"
+         >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER DETAILS"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:background="@color/black"
+        android:textSize="40dp"
+       />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tName"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tUsername"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tmobile"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tmail"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tcarmodel"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tcarNo"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+
+        />
+</LinearLayout>
+<!--</FrameLayout>  -->
